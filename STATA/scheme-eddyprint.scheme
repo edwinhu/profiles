@@ -1,0 +1,116 @@
+*                                    eddyprint.scheme
+
+* eddy scheme family with a naturally white background and color 
+* foreground (lines, symbols, text, etc).  Very similar to s2 family, but has
+* no background shading and uses colors with more contrast (though perhaps 
+* less appealing).  Also uses grid lines for fewer graph families and the
+* symbol changes for each plot#.
+* better sizing/aspect ratios
+
+*!  version 1.1.0  22mar2007
+
+#include s1mono
+
+label "eddy's print scheme"
+
+graphsize					5
+graphsize x					6
+graphsize y					4
+
+numstyle legend_cols		3
+
+linewidth p        thick
+
+linepattern p1lineplot  solid
+linepattern p2lineplot  dash
+linepattern p3lineplot  vshortdash
+linepattern p4lineplot  longdash
+linepattern p5lineplot  longdash_dot
+linepattern p6lineplot  dash_dot
+linepattern p7lineplot  dot
+linepattern p8lineplot  shortdash_dot
+linepattern p9lineplot  tight_dot
+linepattern p10lineplot dash_dot_dot
+linepattern p11lineplot longdash_shortdash
+linepattern p12lineplot dash_3dot
+linepattern p13lineplot longdash_dot_dot
+linepattern p14lineplot shortdash_dot_dot
+linepattern p15lineplot longdash_3dot
+
+linepattern p1line  solid
+linepattern p2line  dash
+linepattern p3line  vshortdash
+linepattern p4line  longdash
+linepattern p5line  longdash_dot
+linepattern p6line  dash_dot
+linepattern p7line  dot
+linepattern p8line  shortdash_dot
+linepattern p9line  tight_dot
+linepattern p10line dash_dot_dot
+linepattern p11line longdash_shortdash
+linepattern p12line dash_3dot
+linepattern p13line longdash_dot_dot
+linepattern p14line shortdash_dot_dot
+linepattern p15line longdash_3dot
+
+color p       black
+color p1      black
+color p2      gs10
+color p3      gs8
+color p4      gs4
+color p5      gs6
+color p6      gs12
+color p7      gs2
+color p8      gs7
+color p9      gs9
+color p10     gs11
+color p11     gs13
+color p12     gs5
+color p13     gs3
+color p14     gs12
+color p15     gs5
+
+gsize                 small
+gsize gap             tiny
+gsize text            small
+gsize body            medsmall
+gsize small_body      small
+gsize heading         large
+gsize subheading      small
+gsize axis_title      medsmall
+gsize matrix_label    medlarge
+gsize label           medsmall     
+gsize small_label     small     
+gsize matrix_marklbl  small     
+gsize key_label       medsmall     
+gsize note            small
+gsize star            small
+gsize text_option     medsmall     
+gsize dot_rectangle   third_tiny
+gsize axis_space      half_tiny
+gsize axis_title_gap  minuscule
+gsize tick            tiny
+gsize minortick       half_tiny
+* gsize minortick       .55
+gsize tickgap         half_tiny
+gsize notickgap       tiny
+gsize tick_label      small
+gsize tick_biglabel   small
+gsize minortick_label small
+gsize filled_text     small
+gsize reverse_big     large
+gsize alternate_gap   zero
+gsize title_gap       small
+gsize key_gap         small
+gsize key_linespace   small
+gsize star_gap        minuscule
+gsize legend_colgap   small
+gsize label_gap       half_tiny
+gsize matrix_mlblgap  half_tiny
+gsize barlabel_gap    tiny
+
+gsize legend_row_gap    tiny
+gsize legend_col_gap    large
+gsize legend_key_gap    small
+gsize legend_key_xsize  13
+gsize legend_key_ysize  medsmall

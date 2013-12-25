@@ -1,0 +1,25 @@
+
+    table.dataframe {
+        font-size: 75%;
+        line-height: normal;
+    }
+    
+    div.input {
+        width: 105ex; /* about 80 chars + buffer */
+    }
+
+    div.text_cell {
+        width: 105ex /* instead of 100%, */
+    }
+    
+    div.text_cell_render {
+        /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+        font-family: "Charis SIL", serif; /* Make non-code text serif. */
+        font-size: 2ex;
+        line-height: 145%; /* added for some line spacing of text. */
+        width: 105ex; /* instead of 'inherit' for shorter lines */
+    }
+    
+    .CodeMirror {
+        font-family: Consolas, monospace;
+    }
